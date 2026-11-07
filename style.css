@@ -1,0 +1,173 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #eef2f7;
+
+    display: flex;
+
+    justify-content: center;
+
+    padding: 40px;
+
+}
+
+.container {
+
+    width: 700px;
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
+
+}
+
+h1 {
+
+    text-align: center;
+
+    margin-bottom: 25px;
+
+}
+
+.dashboard {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+
+}
+
+.card {
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    color: white;
+
+}
+
+.income {
+
+    background: #2ecc71;
+
+}
+
+.expense {
+
+    background: #e74c3c;
+
+}
+
+.balance {
+
+    background: #3498db;
+
+}
+
+.form input,
+.form select,
+.form button {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 10px;
+
+    font-size: 16px;
+
+    border-radius: 6px;
+
+}
+
+button {
+
+    background: #3498db;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+button:hover {
+
+    background: #2980b9;
+
+}
+
+#search {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin: 20px 0;
+
+    font-size: 16px;
+
+}
+
+ul {
+
+    list-style: none;
+
+}
+
+li {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    background: #f8f8f8;
+
+    padding: 15px;
+
+    margin-top: 10px;
+
+    border-radius: 8px;
+
+}
+
+.deleteBtn {
+
+    background: red;
+
+    color: white;
+
+    padding: 8px 12px;
+
+    border: none;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+
+}
